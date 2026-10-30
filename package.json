@@ -1,0 +1,54 @@
+{
+  "name": "cosmic-explorer",
+  "version": "1.0.0",
+  "description": "Interactive Universe Simulation with Cinematic Zoom & Procedural Detail",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.160.0",
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/drei": "^9.88.17",
+    "@react-three/postprocessing": "^2.15.11",
+    "zustand": "^4.4.7",
+    "simplex-noise": "^4.0.1",
+    "alea": "^1.0.1",
+    "lamina": "^1.1.23",
+    "postprocessing": "^6.33.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5"
+  },
+  "keywords": [
+    "universe-simulation",
+    "space",
+    "astronomy",
+    "threejs",
+    "webgl",
+    "procedural-generation",
+    "nasa-data",
+    "asteroids",
+    "cinematic-camera"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cosmic-explorer.git"
+  }
+}
